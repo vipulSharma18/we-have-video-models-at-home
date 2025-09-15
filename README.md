@@ -1,5 +1,5 @@
 # we-have-video-models-at-home
-How fast can we train a big video model?
+How fast can we train a big video model? A survey of ML Sys problems in video models pre-training and serving.
 
 ## Roadmap:
 
