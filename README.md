@@ -4,7 +4,8 @@ How fast can we train a big video model? A survey of ML Sys problems in video mo
 ## Roadmap:
 
 ### Data Plane:
-NVIDIA DALI and fused pre-processing and training kernels to speed up training. cuVS and other tools for fast data pipelines.
+NVIDIA DALI and fused pre-processing and training kernels to speed up training. cuVS and other tools for fast data pipelines.     
+Use cuFile and GPU Direct Storage. Create a fused kernel with DALI and cuFile for preprocessing.
 
 ### Model Plane:
 Which models will train the fastest? Multimodal FLA kernels. Multimodal fused MoE kernels.
